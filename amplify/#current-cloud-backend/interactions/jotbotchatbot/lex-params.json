@@ -1,0 +1,27 @@
+{
+    "resourceName": "jotbotchatbot",
+    "botName": "jotbotchatbot",
+    "intents": [
+        {
+            "slots": [
+                {
+                    "name": "time",
+                    "type": "AMAZON.TIME",
+                    "prompt": "What time?",
+                    "required": true,
+                    "customType": false
+                }
+            ],
+            "utterances": [
+                "I would like to book a meeting.",
+                "Book a meeting.",
+                "Book meeting."
+            ],
+            "intentName": "Book_meeting",
+            "newSlotTypes": []
+        }
+    ],
+    "outputVoice": false,
+    "sessionTimeout": 5,
+    "coppa": false
+}

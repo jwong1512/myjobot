@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-myjotbot-dev-151015-authRole",
+      "UnauthRoleArn": "arn:aws:iam::230916033385:role/amplify-myjotbot-dev-151015-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::230916033385:role/amplify-myjotbot-dev-151015-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-myjotbot-dev-151015-deployment",
+      "UnauthRoleName": "amplify-myjotbot-dev-151015-unauthRole",
+      "StackName": "amplify-myjotbot-dev-151015",
+      "StackId": "arn:aws:cloudformation:us-east-1:230916033385:stack/amplify-myjotbot-dev-151015/69fa15c0-6ddd-11ec-b8c0-12335082ef57",
+      "AmplifyAppId": "d14lsvs2grevfi"
+    },
+    "categories": {
+      "auth": {
+        "myjotbot31230692": {}
+      },
+      "interactions": {
+        "jotbotchatbot": {
+          "deploymentBucketName": "amplify-myjotbot-dev-151015-deployment",
+          "s3Key": "amplify-builds/jotbotchatbot-414e624a413571534a5a-build.zip"
+        }
+      }
+    }
+  }
+}

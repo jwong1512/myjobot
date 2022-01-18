@@ -1,0 +1,79 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-myjotbot-dev-151015-authRole",
+      "UnauthRoleArn": "arn:aws:iam::230916033385:role/amplify-myjotbot-dev-151015-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::230916033385:role/amplify-myjotbot-dev-151015-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-myjotbot-dev-151015-deployment",
+      "UnauthRoleName": "amplify-myjotbot-dev-151015-unauthRole",
+      "StackName": "amplify-myjotbot-dev-151015",
+      "StackId": "arn:aws:cloudformation:us-east-1:230916033385:stack/amplify-myjotbot-dev-151015/69fa15c0-6ddd-11ec-b8c0-12335082ef57",
+      "AmplifyAppId": "d14lsvs2grevfi"
+    }
+  },
+  "auth": {
+    "myjotbot31230692": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-myjotbot-dev-151015-deployment/amplify-cfn-templates/auth/myjotbot31230692-cloudformation-template.yml",
+        "logicalId": "authmyjotbot31230692"
+      },
+      "lastPushTimeStamp": "2022-01-07T13:56:06.707Z",
+      "output": {
+        "UserPoolId": "us-east-1_kW9bIgCuG",
+        "AppClientIDWeb": "25l4efof42o1l7t06i6vtlke26",
+        "AppClientID": "7jrtnjob1pkq6inuskpcmfg49g",
+        "IdentityPoolId": "us-east-1:62db9910-6ca7-44a9-9160-efc372f693c4",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-1:230916033385:userpool/us-east-1_kW9bIgCuG",
+        "IdentityPoolName": "myjotbot31230692_identitypool_31230692__dev",
+        "UserPoolName": "myjotbot31230692_userpool_31230692"
+      },
+      "lastPushDirHash": "r9M8EdeShF3XfHJ1PU6vVmoizIs="
+    }
+  },
+  "predictions": {
+    "Transcribe": {
+      "providerPlugin": "awscloudformation",
+      "service": "Transcribe",
+      "convertType": "transcription",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-myjotbot-dev-151015-deployment/amplify-cfn-templates/predictions/Transcribe-template.json",
+        "logicalId": "predictionsTranscribe"
+      },
+      "lastPushTimeStamp": "2022-01-07T13:56:06.709Z",
+      "output": {
+        "language": "en-US",
+        "region": "us-east-1"
+      },
+      "lastPushDirHash": "s7MrbdC/zA8vomcmxdIm98WuN90="
+    }
+  },
+  "interactions": {
+    "jotbotchatbot": {
+      "service": "Lex",
+      "providerPlugin": "awscloudformation",
+      "build": true,
+      "lastPackageTimeStamp": "2022-01-07T13:54:20.875Z",
+      "distZipFilename": "jotbotchatbot-414e624a413571534a5a-build.zip",
+      "s3Bucket": {
+        "deploymentBucketName": "amplify-myjotbot-dev-151015-deployment",
+        "s3Key": "amplify-builds/jotbotchatbot-414e624a413571534a5a-build.zip"
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-myjotbot-dev-151015-deployment/amplify-cfn-templates/interactions/jotbotchatbot-cloudformation-template.json",
+        "logicalId": "interactionsjotbotchatbot"
+      },
+      "lastPushTimeStamp": "2022-01-07T13:56:06.717Z",
+      "output": {
+        "FunctionArn": "arn:aws:lambda:us-east-1:230916033385:function:myjotbot_cfnlambda_9ec1c850-dev",
+        "Region": "us-east-1",
+        "BotName": "jotbotchatbot_dev"
+      },
+      "lastPushDirHash": "IHcyGfNLV/BCrTCgz1s1jJ8BQd0="
+    }
+  }
+}
