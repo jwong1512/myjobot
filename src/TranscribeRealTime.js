@@ -14,10 +14,10 @@ const TranscribeRealTime = () => {
                 <div class="row">
                     <div class="col">
                         <label>Access ID:</label>
-                        <input type="password" id="access_id" placeholder="ACCESS ID" value="AKIATLQ5LBNU73ZM4BVZ" readOnly/>
+                        <input type="password" id="access_id" placeholder="ACCESS ID" value="" readOnly/>
 
                         <label>Secret Key:</label>
-                        <input type="password" id="secret_key" placeholder="SECRET KEY" value="/2krrtcVLDNpHXo2dfSr9Bfodjlon5CSJwWSWJen" readOnly/>
+                        <input type="password" id="secret_key" placeholder="SECRET KEY" value="" readOnly/>
                         <label>Session Token (if using MFA):</label>
                         <input type="password" id="session_token" placeholder="SESSION TOKEN" value="" />
                     </div>
